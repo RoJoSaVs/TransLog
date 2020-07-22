@@ -3,9 +3,6 @@ preposicion(de, ["de"], ["of"]).
 preposicion(estar, ["en"], ["in"]).
 
 
-pronombre(singular, masculino, primera, ["yo"], ["i"]).
-pronombre(singular, masculino, tercera, ["eel"], ["he"]).
-
 determinante(singular, masculino, tercera, ["un"], ["a"]).
 determinante(singular, masculino, tercera, ["un"], ["an"]).
 determinante(singular, femenino, tercera, ["una"], ["a"]).

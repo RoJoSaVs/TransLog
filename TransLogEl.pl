@@ -7,7 +7,7 @@ PREOYECTO TRANSLOG
 %:- include(datosAdjetivos).
 %:- include(datosSustantivos).
 %:- include(datosVerbos).
-%:- include(datosPronombres).
+:- include(datosPronombres).
 
 transLog:-
     write("Ingrese el idioma a traducir / Type the language to translate"), nl,
@@ -21,7 +21,8 @@ traducir(IDIOMA):-
         string_lower(ENTRADA, ORACION),
         split_string(ORACION, " ", "", ListaOracion),
         oracion(ListaOracion, TRADUCCION),
-        write(TRADUCCION). 
+        atomic_list_concat(TRADUCCION,' ',TRADUCCION_STRING),
+        write(TRADUCCION_STRING).
 
 traducir(IDIOMA):- 
     IDIOMA = "EN",
@@ -31,7 +32,8 @@ traducir(IDIOMA):-
         string_lower(ENTRADA, ORACION),
         split_string(ORACION, " ", "", ListaOracion),
         oracion(TRADUCCION, ListaOracion),
-        write(TRADUCCION).
+        atomic_list_concat(TRADUCCION,' ',TRADUCCION_STRING),
+        write(TRADUCCION_STRING).
 
 traducir(IDIOMA):-
     IDIOMA = "ES", 

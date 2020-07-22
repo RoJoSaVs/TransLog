@@ -2,11 +2,11 @@
 %%         BASE DE DATOS PRONOMBRES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-pronombre(singular,masculino,primera,["yo"], ["I"]).
-pronombre(singular,femenino,primera,["yo"], ["I"]).
-pronombre(singular,masculino,segunda,["t�"], ["you"]).
-pronombre(singular,femenino,segunda,["t�"], ["you"]).
-pronombre(singular,masculino,tercera,["�l"], ["he"]).
+pronombre(singular,masculino,primera,["yo"], ["i"]).
+pronombre(singular,femenino,primera,["yo"], ["i"]).
+pronombre(singular,masculino,segunda,["tu"], ["you"]).
+pronombre(singular,femenino,segunda,["tu"], ["you"]).
+pronombre(singular,masculino,tercera,["eel"], ["he"]).
 pronombre(singular,femenino,tercera,["ella"], ["she"]).
 pronombre(singular,masculino,tercera,["ello"], ["it"]).
 pronombre(singular,femenino,tercera,["ello"], ["it"]).

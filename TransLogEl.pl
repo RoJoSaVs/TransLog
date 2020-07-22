@@ -55,6 +55,18 @@ oracion(Z,ZZ):-
     sintagmaVerbal(Y,YY),
     concatenar(X,Y,Z),concatenar(XX,YY,ZZ).
 
+oracion(Z, ZZ):-
+    excepcion(Z, ZZ),
+    concatenar(X,Y,Z),concatenar(XX,YY,ZZ).
+
+oracion(Z, ZZ):-
+    incognita(X, XX),
+    sintagmaVerbal(Y, YY),
+    concatenar(X,Y,Z),concatenar(XX,YY,ZZ).
+
+incognita(Z, ZZ):- pregunta(Z, ZZ).
+
+
 
 %El núcleo es un sustantivo o nombre. (El coche) verde
 %Suele estar constituido: DETERMINANTE + NÚCLEO + COMPLEMENTOS

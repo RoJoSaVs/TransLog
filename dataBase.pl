@@ -47,3 +47,17 @@ ser(singular, presente, tercera, ["es"], ["is"]).
 ser(singular, presente, primera, ["soy"], ["am"]).
 estar(singular, presente, primera, ["estoy"], ["am"]).
 estar(singular, presente, tercera, ["esta"], ["is"]).
+
+excepcion(["que","edad", "tienes"],["how", "old", "are", "you"]).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+pregunta(["quien"], ["who"]).
+pregunta(["que"], ["what"]).
+pregunta(["cual"], ["which"]).
+pregunta(["cuando"], ["when"]).
+pregunta(["por", "que"], ["why"]).
+pregunta(["donde"], ["where"]).
+pregunta(["como"], ["how"]).
+pregunta(["cuantos"], ["how", "much"]).
+pregunta(["cuantos"], ["how", "many"]).
+pregunta(["con", "que", "frecuencia"], ["how","often"]).

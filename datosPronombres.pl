@@ -2,7 +2,7 @@
 %%         BASE DE DATOS PRONOMBRES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%Estructura de pronombre
 %pronombre(numero,genero,persona,["palabra en español"],["palabra en inglés"]).
 
 pronombre(singular,masculino,primera,["yo"], ["i"]).

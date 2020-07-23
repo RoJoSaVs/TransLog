@@ -2,6 +2,7 @@
 %%%%%%%%%      BASE DE DATOS VERBOS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%Estructura de verbos
 %verbo(numero,tiempo,persona,["palabra en español"],["palabra en inglés"]).
 
 % 1 - Abrir/Open

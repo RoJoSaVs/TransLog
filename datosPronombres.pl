@@ -2,6 +2,9 @@
 %%         BASE DE DATOS PRONOMBRES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+%pronombre(numero,genero,persona,["palabra en español"],["palabra en inglés"]).
+
 pronombre(singular,masculino,primera,["yo"], ["i"]).
 pronombre(singular,femenino,primera,["yo"], ["i"]).
 pronombre(singular,masculino,segunda,["tu"], ["you"]).

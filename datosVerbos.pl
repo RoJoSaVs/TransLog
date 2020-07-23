@@ -2,7 +2,7 @@
 %%%%%%%%%      BASE DE DATOS VERBOS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%verbo(numero,tiempo,persona,["palabra en español"],["palabra en inglés"]).
 
 % 1 - Abrir/Open
 verbo(singular, presente, primera, ["abro"], ["open"]) .

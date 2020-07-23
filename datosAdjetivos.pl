@@ -2,6 +2,9 @@
 %%%%%%%%%      BASE DE DATOS ADJETIVOS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%Estructura de ADJETIVOS
+%adjetivo(numero,genero,["palabra en español"],["palabra en inglés"]).
+
 % 1 - Grande/Big
 adjetivo(singular, masculino, ["grande"], ["big"]) .
 adjetivo(singular, femenino, ["grande"], ["big"]) .

@@ -2,6 +2,9 @@
 %%%%%%%%%      BASE DE DATOS SUSTANTIVOS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+%sustantivo(numero,genero,["palabra en español"],["palabra en inglés"]).
+
 sustantivo(singular, femenino, ["playa"], ["beach"]).
 sustantivo(singular, femenino, ["vida"], ["life"]).
 sustantivo(singular, masculino, ["uno"], ["one"]).

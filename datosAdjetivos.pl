@@ -2,7 +2,7 @@
 %%%%%%%%%      BASE DE DATOS ADJETIVOS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%Estructura de ADJETIVOS
+%Estructura de adjetivos
 %adjetivo(numero,genero,["palabra en español"],["palabra en inglés"]).
 
 % 1 - Grande/Big

@@ -2,7 +2,7 @@
 %%%%%%%%%      BASE DE DATOS SUSTANTIVOS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%Estructura de sustantivos
 %sustantivo(numero,genero,["palabra en español"],["palabra en inglés"]).
 
 sustantivo(singular, femenino, ["playa"], ["beach"]).
